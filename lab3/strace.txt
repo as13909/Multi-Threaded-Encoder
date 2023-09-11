@@ -1,0 +1,110 @@
+execve("./nyuenc", ["./nyuenc", "-j", "3", "file.txt"], 0x7ffdd6c69dd8 /* 31 vars */) = 0
+brk(NULL)                               = 0x6af000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffce8a2fe50) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa24375a000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/glibc-hwcaps/x86-64-v3/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/glibc-hwcaps/x86-64-v3", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/glibc-hwcaps/x86-64-v2/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/glibc-hwcaps/x86-64-v2", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/tls/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/tls/haswell/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/tls/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/tls/haswell", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/tls/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/tls", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/haswell/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/haswell", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib64", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/glibc-hwcaps/x86-64-v3/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/glibc-hwcaps/x86-64-v3", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/glibc-hwcaps/x86-64-v2/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/glibc-hwcaps/x86-64-v2", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/tls/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/tls/haswell/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/tls/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/tls/haswell", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/tls/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/tls", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/haswell/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/haswell", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib/x86_64", 0x7ffce8a2f050) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/gcc-toolset-12/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19011, ...}) = 0
+mmap(NULL, 19011, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa243755000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360n\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=149976, ...}) = 0
+mmap(NULL, 2225344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa24330f000
+mprotect(0x7fa24332a000, 2093056, PROT_NONE) = 0
+mmap(0x7fa243529000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fa243529000
+mmap(0x7fa24352b000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa24352b000
+close(3)                                = 0
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/rh/gcc-toolset-12/root/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\256\3\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2093744, ...}) = 0
+lseek(3, 808, SEEK_SET)                 = 808
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 3954880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa242f49000
+mprotect(0x7fa243105000, 2097152, PROT_NONE) = 0
+mmap(0x7fa243305000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bc000) = 0x7fa243305000
+mmap(0x7fa24330b000, 14528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa24330b000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa243752000
+arch_prctl(ARCH_SET_FS, 0x7fa243752740) = 0
+mprotect(0x7fa243305000, 16384, PROT_READ) = 0
+mprotect(0x7fa243529000, 4096, PROT_READ) = 0
+mprotect(0x403000, 4096, PROT_READ)     = 0
+mprotect(0x7fa24375c000, 4096, PROT_READ) = 0
+munmap(0x7fa243755000, 19011)           = 0
+set_tid_address(0x7fa243752a10)         = 673
+set_robust_list(0x7fa243752a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fa243315970, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fa243321cf0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fa243315a00, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fa243321cf0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x6af000
+brk(0x6d0000)                           = 0x6d0000
+brk(NULL)                               = 0x6d0000
+access("file.txt", R_OK)                = 0
+openat(AT_FDCWD, "file.txt", O_RDONLY)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=41, ...}) = 0
+mmap(NULL, 41, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa243759000
+munmap(0x7fa243759000, 41)              = 0
+close(3)                                = 0
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa242748000
+mprotect(0x7fa242749000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7fa242f47fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[674], tls=0x7fa242f48700, child_tidptr=0x7fa242f489d0) = 674
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa241f47000
+mprotect(0x7fa241f48000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7fa242746fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[675], tls=0x7fa242747700, child_tidptr=0x7fa2427479d0) = 675
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa241746000
+mprotect(0x7fa241747000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7fa241f45fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[676], tls=0x7fa241f46700, child_tidptr=0x7fa241f469d0) = 676
+futex(0x4060e8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x406080, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x4060e8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x4060e8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x4060ec, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x406080, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "a\6b\ta\10b\10a\n", 10)       = 10
+exit_group(0)                           = ?
++++ exited with 0 +++
